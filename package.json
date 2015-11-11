@@ -18,7 +18,9 @@
   "homepage": "https://github.com/philipdai/shoppingcartdemo#readme",
   "dependencies": {
     "browser-sync": "^2.10.0",
+    "express": "^4.13.3",
     "gulp": "^3.9.0",
+    "gulp-live-server": "0.0.29",
     "karma": "^0.13.15",
     "karma-mocha": "^0.2.0",
     "mocha": "^2.3.3"

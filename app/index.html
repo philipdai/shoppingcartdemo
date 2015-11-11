@@ -1,10 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" ng-app="shoppingCart">
+ 
 	<head>
-		<script src="/bower_components/angular/angular.js"></script>
-	</head>
-	<body ng-app="ShoppingCart">
-		<h1>My Shopping Cart</h1>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
+
+		<title>Demo Shop Cart</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		
+		<!-- Customized stylesheet	-->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- Angular core js and angular-route-->
+		<script src="/bower_components/angular/angular.js"></script>
+		<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
+
+
+	</head>
+
+	<body>
+		<div ng-view=""></div>
 		<script src="main.js"></script>
+		<script src="cart/cart.js"></script>
+		<script src="checkout/checkout.js"></script>
 	</body>
+ 
 </html>
