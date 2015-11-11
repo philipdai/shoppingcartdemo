@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/philipdai/shoppingcartdemo/issues"
   },
-  "homepage": "https://github.com/philipdai/shoppingcartdemo#readme"
+  "homepage": "https://github.com/philipdai/shoppingcartdemo#readme",
+  "dependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0"
+  }
 }
