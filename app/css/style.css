@@ -3,7 +3,7 @@ body {
 }
 
 #divTotal{
-	background-color: green;
+	background-color: lightblue;
 }
 
 .affix{
@@ -13,4 +13,34 @@ body {
 .affix-top{
 	right: 0px;
 	position: fixed;
+}
+
+.scroll-debug {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+input.span1 {
+	width: 50px;
+	color: black;
+	margin-left: 50px;
+	position: absolute;
+	right: 20px;
+	top: 2px;
+}
+
+.itemhead {
+	position: relative;
+}
+
+.desc {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.querykey {
+	width: 65%;
+	margin-left: 0px;
+	padding: 2px;
 }
