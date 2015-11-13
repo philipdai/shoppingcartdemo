@@ -4,7 +4,7 @@ angular.module('purchase', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
 
 	$routeProvider.when('/purchase', {
-			templateUrl: '/purchase/purchase.html',
+			templateUrl: 'purchase/purchase.html',
 			controller: 'PurchaseCtrl'
 	});
 }])

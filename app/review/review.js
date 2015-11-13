@@ -4,7 +4,7 @@ angular.module('review', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
 
 	$routeProvider.when('/review', {
-			templateUrl: '/review/review.html',
+			templateUrl: 'review/review.html',
 			controller: 'ReviewCtrl'
 	});
 }])
