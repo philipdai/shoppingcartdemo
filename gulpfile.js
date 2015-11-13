@@ -11,8 +11,8 @@ var debug = require('gulp-debug'),
     sourcemaps = require('gulp-sourcemaps'),
     del = require('del'),
     Config = require('./gulpfile.config'),
-    tsProject = tsc.createProject('tsconfig.json'),
-    superstatic = require( 'superstatic' );
+    tsProject = tsc.createProject('tsconfig.json');
+    
 
 var config = new Config();
 
@@ -71,12 +71,12 @@ gulp.task('server', function() {
 });
 
 gulp.task('serve', ['server', 'styles', 'compile-ts', 'watch', 'compile-ts'], function() {
-	process.stdout.write('Starting browserSync and superstatic...\n');
+	process.stdout.write('Starting browserSync...\n');
 	
 	browsersync.init({
 		notify: true,
 		port: 8080,
-		files: ['index.html', '**/*.js'],
+		files: ['index.html', 'app/**/*.js'],
     injectChanges: true,
     logFileChanges: false,
     logLevel: 'silent',

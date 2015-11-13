@@ -126,7 +126,7 @@ angular.module('cart', ['ngRoute'])
         link: function (scope, element, attrs) {
             var scrollwindow = angular.element($window);
             scrollwindow.on('scroll', scope.$apply.bind(scope, function () {
-                scope.scroll = scrollwindow.scrollTop();
+                //					scope.scroll = scrollwindow.scrollTop();
             }));
         }
     };
