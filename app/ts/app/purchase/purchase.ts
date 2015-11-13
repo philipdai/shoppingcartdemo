@@ -7,7 +7,7 @@ angular.module('purchase', ['ngRoute'])
 	});
 }])
 
-.controller('PurchaseCtrl', ['$scope','CommonProp', 'reset', function($scope, CommonProp, reset) {
+.controller('PurchaseCtrl', ['$scope', 'CommonProp', 'reset', function($scope, CommonProp, reset) {
 	$scope.items = CommonProp.getItems();
 	$scope.total = CommonProp.getTotal();
 
@@ -17,7 +17,7 @@ angular.module('purchase', ['ngRoute'])
 			result += chars[Math.round(Math.random() * (chars.length - 1))];
 		}
 		return result;
-	}
+	};
 
 	$scope.confirmNum = $scope.randomString(32, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ');
 

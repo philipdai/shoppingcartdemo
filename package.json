@@ -22,17 +22,19 @@
     "express": "^4.13.3",
     "gulp": "^3.9.0",
     "gulp-live-server": "0.0.29",
+    "gulp-sass": "^2.1.0",
     "karma": "^0.13.15",
     "karma-mocha": "^0.2.0",
     "mocha": "^2.3.3",
     "superstatic": "^3.0.0"
   },
   "devDependencies": {
+    "angular-route": "^1.4.7",
     "gulp-debug": "^2.1.2",
     "gulp-inject": "^3.0.0",
+    "gulp-rimraf": "^0.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-tslint": "^3.6.0",
-    "gulp-typescript": "^2.9.2",
-    "gulp-rimraf": "^0.2.0"
+    "gulp-typescript": "^2.9.2"
   }
 }

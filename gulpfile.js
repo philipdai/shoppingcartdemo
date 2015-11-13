@@ -70,7 +70,7 @@ gulp.task('server', function() {
 	live.start();
 });
 
-gulp.task('serve', ['server', 'styles', 'compile-ts', 'watch', 'ts-lint', 'compile-ts'], function() {
+gulp.task('serve', ['server', 'styles', 'compile-ts', 'watch', 'compile-ts'], function() {
 	process.stdout.write('Starting browserSync and superstatic...\n');
 	
 	browsersync.init({
